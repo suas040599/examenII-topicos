@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Examen II login</title>
+    <link rel="stylesheet" href="css/crear_cuenta.css">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url(img/login.jpg);
+        }
+    </style>
+    
+</head>
+<body>
+   <div class="container">
+       <!--Inicio de secion-->
+        <div class="header">
+            <h2>Crear cuenta</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Usuario</label>
+                <input type="text" placeholder="Usuario" id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" placeholder="usuario@gmail.com" id="email"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password" id="password"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password2">Repetir password</label>
+                <input type="password" placeholder="Password" id="password2"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <button type="submit">Emviar</button>
+            <p class="warnings" id="warnings"></p>
+        </form>
+    </div>
+    <script src="js/validacion.js"></script>  
+</body>
+</html>

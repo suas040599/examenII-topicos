@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Examen II</title>
+    <!--Estilos CSS-->
+    <link rel="stylesheet" href="css/inicio_sesion.css">
+    <!--Google fonts ESTILOS DE LETRA -->
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url(img/login.jpg);
+        }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+       <!--Inicio de secion-->
+        <div class="header">
+            <h2>Inicio de secion</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Usuario</label>
+                <input type="text" placeholder="Usuario" id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password" id="password"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+           <button type="submit">Inisiar seción</button><br>
+            
+            
+            <a href="#">¿Perdiste tu contraseña?</a><br>
+            <a href="crear_cuenta.html">¿No tienes una cuenta?</a>
+        </form>
+    </div>
+    <script src="js/validacion_inicio.js"></script> 
+    
+  </body>
+</html>
