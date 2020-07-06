@@ -62,7 +62,7 @@ function setSuccessFor(input) {
 	const formControl = input.parentElement;
 	formControl.className = 'form-control success';
     /*window.location.href = 'index.html';*/
-    location.href="index.html";
+    location.href="wedPaciente.html";
 }
 
 function isEmail(email) {
