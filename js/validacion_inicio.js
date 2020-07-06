@@ -13,7 +13,7 @@ form.addEventListener('submit', e => {
 	const usuarioValue = usuario.value.trim();
 	
 	const passwordValue = password.value.trim();
-	usuario = suastegui;
+	
 	
 	if(usuarioValue === '') {
 		setErrorFor(usuario, 'No puede dejar el usuairo en blanco');
