@@ -41,7 +41,7 @@ function setErrorFor(input, message) {
 function setSuccessFor(input) {
 	const formControl = input.parentElement;
 	formControl.className = 'form-control success';
-    window.location.href = 'wedPaciente.html';
+	location.href="wedPaciente.html";
     
 }
 
